@@ -1,0 +1,144 @@
+body {
+  text-align: center;
+  background-image: url("https://images.pexels.com/photos/1083619/pexels-photo-1083619.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500");
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: black;
+  font-family: georgia;
+}
+
+input {
+  font-size: 100px;
+}
+
+* {padding: 0; margin: 0;}
+
+.flex-container  {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+      background: white;
+}
+
+.logo {
+  margin: 0 0 0 .45em;
+}
+
+    .logo, .navigation {
+        list-style: none;
+        text-transform: uppercase;
+    }
+
+    .logo a, .navigation a {
+        text-decoration: none;
+        letter-spacing: .30rem;
+    }
+
+.navigation  {
+  display: flex;
+}
+
+.navigation a {
+  display: block;
+  padding: 1em;
+  color: orange;
+}
+
+.navigation a:hover {
+    background: #00ace6;
+}
+
+/* *********** media queries *********** */
+@media all and (max-width: 990px) {
+  .flex-container {
+    flex-direction: column;
+  }
+
+  .logo {
+  margin: 0;
+}
+
+  .navigation  {
+    width: 100%;
+    justify-content: space-around;
+  }
+}
+
+
+/* ****** ****** */
+@media all and (max-width: 600px) {
+
+  .logo {
+    margin: .25em 0;
+    align-self: left; /* align the logo to the left side of 'flex-container' */
+}
+
+  .navigation {
+    flex-direction: column;
+  }
+
+  .navigation a {
+    text-align: center;
+    padding: 10px;
+    border-top: 1px solid rgba(255,255,255,0.3);
+    border-bottom: 1px solid rgba(0,0,0,0.1);
+  }
+
+  .navigation li:last-of-type a {
+    border-bottom: none;
+  }
+}
+
+.maintitle {
+  text-align: center;
+  font-size: 60px;
+  color: deepskyblue;
+}
+
+.subtitle {
+  text-align: center;
+  font-size: 20px;
+  color: deepskyblue;
+  font-weight: lighter;
+}
+
+div.container {
+  width:50%;
+  margin:1%;
+}
+
+table#table1 {
+  text-align:center;
+  margin-left:auto;
+  margin-right:auto;
+  width:100px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  vertical-align:
+}
+
+table#table2 {
+  text-align:center;
+  margin-left:auto;
+  margin-right:auto;
+  width:100px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+tr,td {text-align:center;}
+
+.transbox-header {
+    margin: 30px;
+    background-color: #ffffff;
+    border: 1px solid black;
+    opacity: 0.6;
+    filter: alpha(opacity=60); /* For IE8 and earlier */
+}
+
+.transbox-header h1, h2 {
+		margin: 4%;
+		text-align: center;
+}
