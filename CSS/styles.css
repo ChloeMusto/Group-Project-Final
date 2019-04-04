@@ -1,7 +1,7 @@
 /*index page*/
 body {
   text-align: center;
-  color: white;
+  color: black;
   font-family: georgia;
   font-size: 20px;
   font-style: lighter;
@@ -158,10 +158,47 @@ tr,td {text-align:center;}
     background-size: cover;
     background-position: center;
     text-align: left;
+    color: white;
   }
 
-  .navigation a {
-    display: block;
-    padding: 1em;
-    color: deepskyblue;
-  }
+#page3 .myDiv {
+  background-image: url("https://images.pexels.com/photos/268976/pexels-photo-268976.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260");
+  background-size: cover;
+  color: white;
+}
+
+/* social medial icons*/
+
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 50%;
+}
+
+/* Add a hover effect if you want */
+.fa:hover {
+  opacity: 0.7;
+}
+
+/* Set a specific color for each brand */
+
+/* Facebook */
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+}
+
+/* Twitter */
+.fa-twitter {
+  background: #55ACEE;
+  color: white;
+}
+
+/*Instagram*/
+.fa-instagram {
+  background:
+  color: white;
+}
