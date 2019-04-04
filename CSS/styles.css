@@ -1,11 +1,19 @@
+/*index page*/
 body {
   text-align: center;
-  background-image: url("https://images.pexels.com/photos/1083619/pexels-photo-1083619.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500");
-  background-size: cover;
-  background-repeat: no-repeat;
-  color: black;
+  color: white;
   font-family: georgia;
+  font-size: 20px;
+  font-style: lighter;
 }
+
+/* set background image per page*/
+
+.home-bg {
+    background-image: url("https://images.pexels.com/photos/1083619/pexels-photo-1083619.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500");
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
 
 input {
   font-size: 100px;
@@ -142,3 +150,18 @@ tr,td {text-align:center;}
 		margin: 4%;
 		text-align: center;
 }
+
+/*about page*/
+
+#page2 .myDiv {
+    background-image: url("https://images.pexels.com/photos/268976/pexels-photo-268976.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260");
+    background-size: cover;
+    background-position: center;
+    text-align: left;
+  }
+
+  .navigation a {
+    display: block;
+    padding: 1em;
+    color: deepskyblue;
+  }
